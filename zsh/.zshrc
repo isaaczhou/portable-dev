@@ -18,15 +18,10 @@ alias update-antibody='antibody bundle < $HOME/.zsh_plugins.txt > $HOME/.zsh_plu
 alias list-npm-globals='npm list -g --depth=0'
 # Adds better handling for `rm` using trash-cli
 # https://github.com/sindresorhus/trash-cli
-# You can empty the trash using the empty-trash command
-# https://github.com/sindresorhus/empty-trash-cli
-alias rm='trash'
 # use neovim instead of vim
 alias vim='nvim'
 # checkout branch using fzf
 alias gcob='git branch | fzf | xargs git checkout'
-# open vim config from anywhere
-alias vimrc='vim ${HOME}/.config/nvim/init.vim'
 # cat -> bat
 alias cat='bat'
 # colored ls output
